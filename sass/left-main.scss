@@ -1,0 +1,95 @@
+@import "global";
+
+header {
+
+	background: white;
+	padding: 20px 0 0 0;
+	border-bottom: 3px solid #cdcdcd;
+
+}
+
+.hero-image-wrapper {
+
+	position: absolute;
+
+	& img {
+
+		width: 82%;
+		float: right;
+
+	}
+
+}
+
+.navigation {
+
+	width: 190px !important;
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	background: white;
+	border-right: 3px solid #cdcdcd;
+	min-height: 600px;
+
+	& ul {
+
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		position: relative;
+
+		& li {
+			
+			// margin-right: 2.3%;
+			cursor: pointer;
+			// display: inline-block;
+			padding: .5em 1.5em;
+			min-height: 1.5em;
+			position: relative;
+
+			& .sub-menu {
+
+				display: none;
+
+			}
+
+			&:hover {
+
+				background: $blue;
+				color: white;
+
+				& .sub-menu {
+
+					display: block;
+					color: black;
+					position: absolute;
+					top: 0;
+					left: 188px;
+					// padding-top: .8em;
+
+					& li {
+
+						padding: .8em .9em;
+						min-width: 9em;
+						background: white;
+						margin-left: .29em;
+
+					}
+
+
+					& li:hover {
+						color: white;
+						background: $blue;
+					}
+
+				}
+
+
+			}
+
+		}
+
+	}
+
+}

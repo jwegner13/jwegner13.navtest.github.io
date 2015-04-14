@@ -1,0 +1,85 @@
+@import "global";
+
+header {
+
+	background: white;
+	padding: 20px 0 0 0;
+	border-bottom: 3px solid #cdcdcd;
+
+}
+
+.navigation {
+
+	& ul {
+
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		position: relative;
+
+		& li {
+			
+			margin-right: 2.3%;
+			cursor: pointer;
+			display: inline-block;
+			padding: .5em 1.5em;
+			min-height: 1.5em;
+			position: relative;
+
+			& .sub-menu {
+
+				display: none;
+
+			}
+
+			&:hover {
+
+				background: $blue;
+				color: white;
+
+				& .sub-menu {
+
+					display: block;
+					color: black;
+					position: absolute;
+					top: 49;
+					left: 0;
+					padding-top: .8em;
+
+					& li {
+
+						padding: .8em .9em;
+						min-width: 9em;
+						background: white;
+
+					}
+
+
+					& li:hover {
+						color: white;
+						background: $blue;
+					}
+
+				}
+
+
+			}
+
+
+			&:last-child {
+				
+				margin-right: 0px;
+
+				& .sub-menu {
+
+					left: -62px !important;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

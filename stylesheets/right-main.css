@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+/* line 5, ../sass/_global.scss */
+body {
+  background: #ededed;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+/* line 14, ../sass/_global.scss */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+/* line 19, ../sass/_global.scss */
+.container p {
+  color: #2d96cd;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0 auto 20px auto;
+}
+
+/* line 31, ../sass/_global.scss */
+.hero-image-wrapper {
+  width: 1024px;
+}
+/* line 35, ../sass/_global.scss */
+.hero-image-wrapper img {
+  width: 100%;
+}
+
+/* line 3, ../sass/right-main.scss */
+header {
+  background: white;
+  padding: 20px 0 0 0;
+  border-bottom: 3px solid #cdcdcd;
+}
+
+/* line 11, ../sass/right-main.scss */
+.hero-image-wrapper {
+  position: absolute;
+}
+/* line 15, ../sass/right-main.scss */
+.hero-image-wrapper img {
+  width: 82%;
+  float: left;
+}
+
+/* line 24, ../sass/right-main.scss */
+.navigation {
+  width: 190px !important;
+  position: relative;
+  top: 0;
+  left: 0;
+  float: right;
+  background: white;
+  border-left: 3px solid #cdcdcd;
+  min-height: 600px;
+}
+/* line 35, ../sass/right-main.scss */
+.navigation ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+/* line 42, ../sass/right-main.scss */
+.navigation ul li {
+  cursor: pointer;
+  padding: .5em 1.5em;
+  min-height: 1.5em;
+  position: relative;
+}
+/* line 51, ../sass/right-main.scss */
+.navigation ul li .sub-menu {
+  display: none;
+}
+/* line 57, ../sass/right-main.scss */
+.navigation ul li:hover {
+  background: #2d96cd;
+  color: white;
+}
+/* line 62, ../sass/right-main.scss */
+.navigation ul li:hover .sub-menu {
+  display: block;
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 188px;
+}
+/* line 71, ../sass/right-main.scss */
+.navigation ul li:hover .sub-menu li {
+  padding: .8em .9em;
+  min-width: 9em;
+  background: white;
+  margin-right: .29em;
+}
+/* line 81, ../sass/right-main.scss */
+.navigation ul li:hover .sub-menu li:hover {
+  color: white;
+  background: #2d96cd;
+}

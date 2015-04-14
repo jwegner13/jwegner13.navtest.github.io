@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+$blue: #2d96cd;
+
+body {
+
+	background: #ededed;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+
+}
+
+.container {
+
+	width: 1024px;
+	margin: 0 auto;
+
+	& p {
+
+		color: $blue;
+		font-weight: bold;
+		font-size: 2em;
+		margin: 0 auto 20px auto;
+
+	}
+
+}
+
+
+.hero-image-wrapper {
+
+	width: 1024px;
+
+	& img {
+
+		width: 100%;
+
+	}
+
+}
